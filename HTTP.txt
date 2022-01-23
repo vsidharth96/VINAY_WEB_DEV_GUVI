@@ -1,0 +1,27 @@
+HTTP
+
+Hypertext Transfer Protocol is a set of rules that run on top of TCP/IP suite of protocols and defines how files are to be transferred between clients and servers on teh world wide web
+
+HTTP - 0.9 : HTTP did not use any headers and only transmitted plain HTML files .It was only a one-line protocol supporting GER method
+
+HTTP - 1 :
+The concept of headers both for requests as well as responses was introduced.The use of headers such as GET,POST,HEAD added extended flexiblity
+version information was included
+it allowed a single request/response for every TCP connection
+status codes were used to indicate succesfull requests and to indicate transmission errors
+It allowed sending other type of files including scripts/media
+
+1.1 cons : 
+1. HOL : head of line blocking
+2. Repition of headers
+
+
+HTTP -2 :
+Improvement from 1.1
+servers started supporting from 2016
+
+single TCP and streams are created within TCP
+HTTPS is mandatory
+HPACK : Header and basic request data is seperated
+Push Frames : can be set on server side , 
+Build on top of 1.1
